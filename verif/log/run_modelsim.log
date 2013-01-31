@@ -1,0 +1,1163 @@
+Reading D:/Actel/Libero_v9.1/Model/tcl/vsim/pref.tcl 
+
+# 6.6d
+
+# vsim -do modelsim.do -c tb_top 
+# //  ModelSim ACTEL 6.6d Nov  2 2010 
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading work.tb_top
+# Loading work.top
+# Loading work.spi_core
+# Loading work.spi_if
+# Loading work.spi_ctl
+# Loading work.spi_cfg
+# Loading work.generic_register
+# Loading work.req_register
+# Loading work.uart_core
+# Loading work.clk_ctl
+# Loading work.uart_txfsm
+# Loading work.uart_rxfsm
+# Loading work.uart_msg_handler
+# Loading work.uart_agent
+# Loading work.m25p16
+# Loading work.memory_access
+# Loading work.acdc_check
+# Loading work.internal_logic
+# Loading work.bit_register
+# do modelsim.do 
+#               100000:  NOTE: COMMUNICATION (RE)STARTED
+# 
+# (              200000)Received Character:
+# Command Format:
+# wm <ad> <data>
+# rm <ad>
+# >>############################################
+#    Testing ST Flash Read/Write Access       
+############################################
+# wm 0004 06000000
+# cmd success
+# >>wm 0000 80020240
+# cmd success
+# >>rm 0000 
+# Response: 00020240
+# wm 0004 D8000000
+# cmd success
+# >>wm 0000 801A0201
+# cmd s        238532250000:  NOTE : Sector erase cycle has begun
+# uccess
+# >>rm 0000 
+# Response: 001A0201
+#         311348010000 : tb_top.spi_sector_errase : Sending Sector Errase for Address : 000000
+# rm 0000 
+# Response: 001A0201
+# wm 0004 05000000
+# cmd success
+# >>wm 0000 80020200        408463770000:  NOTE : Only a Read Status Register instruction will be valid
+# 
+# cmd success
+# >>rm 0000 
+# Response: 00020200
+# wm 0000 80220240
+# cmd success
+# >>rm 0000 
+# Response: 00220240
+# rm 0008 
+# Response: 03000000
+# Total time Elapsed: 259000(us): tb_top.spi_wait_busy : Checking the SPI RDStatus : 03000000
+# wm 0004 05000000
+# cmd success
+# >>wm 0000 80020200        668337690000:  NOTE : Only a Read Status Register instruction will be valid
+# 
+# cmd success
+# >>rm 0000 
+# Response: 00020200
+# wm 0000 80220240
+# cmd success
+# >>rm 0000 
+# Response: 00220240
+# rm 0008 
+# Response: 03000000
+# Total time Elapsed: 519000(us): tb_top.spi_wait_busy : Checking the SPI RDStatus : 03000000
+# wm 0004 05000000
+# cmd success
+# >>wm 0000 80020200        928211610000:  NOTE : Only a Read Status Register instruction will be valid
+# 
+# cmd success
+# >>rm 0000 
+# Response: 00020200
+# wm 0000 80220240
+# cmd success
+# >>rm 0000 
+# Response: 00220240
+# rm 0008 
+# Response: 03000000
+# Total time Elapsed: 779000(us): tb_top.spi_wait_busy : Checking the SPI RDStatus : 03000000
+# wm 0004 05000000
+# cmd success
+# >>wm 0000 80020200       1188085530000:  NOTE : Only a Read Status Register instruction will be valid
+# 
+# cmd success
+# >>rm 0000 
+# Response: 00020200
+# wm 0000 80220240
+# cmd success
+# >>rm 0000 
+# Response: 00220240
+# rm 0008 
+# Response: 03000000
+# Total time Elapsed: 1039000(us): tb_top.spi_wait_busy : Checking the SPI RDStatus : 03000000
+# wm 0004 05000000
+# cmd success
+# >>wm 0000 80020200       1447959450000:  NOTE : Only a Read Status Register instruction will be valid
+# 
+# cmd success
+# >>rm 0000 
+# Response: 00020200
+# wm 0000 80220240
+# cmd success
+# >>rm 0000 
+# Response: 00220240
+# rm 0008 
+# Response: 03000000
+# Total time Elapsed: 1299000(us): tb_top.spi_wait_busy : Checking the SPI RDStatus : 03000000
+# wm 0004 05000000
+# cmd success
+# >>wm 0000 80020200       1707833370000:  NOTE : Only a Read Status Register instruction will be valid
+# 
+# cmd success
+# >>rm 0000 
+# Response: 00020200
+# wm 0000 80220240
+# cmd success
+# >>rm 0000 
+# Response: 00220240
+# rm 0008 
+# Response: 03000000
+# Total time Elapsed: 1559000(us): tb_top.spi_wait_busy : Checking the SPI RDStatus : 03000000
+# wm 0004 05000000
+# cmd success
+# >>wm 0000 80020200       1967707290000:  NOTE : Only a Read Status Register instruction will be valid
+# 
+# cmd success
+# >>rm 0000 
+# Response: 00020200
+# wm 0000 80220240
+# cmd success
+# >>rm 0000 
+# Response: 00220240
+# rm 0008 
+# Response: 03000000
+# Total time Elapsed: 1819000(us): tb_top.spi_wait_busy : Checking the SPI RDStatus : 03000000
+# wm 0004 05000000
+# cmd success
+# >>wm 0000 80020200       2227581210000:  NOTE : Only a Read Status Register instruction will be valid
+# 
+# cmd success
+# >>rm 0000 
+# Response: 00020200
+# wm 0000 80220240
+# cmd success
+# >>rm 0000 
+# Response: 00220240
+# rm 0008 
+# Response: 03000000
+# Total time Elapsed: 2078000(us): tb_top.spi_wait_busy : Checking the SPI RDStatus : 03000000
+# wm 0004 05000000
+# cmd success
+# >>wm 0000 80020200       2487455130000:  NOTE : Only a Read Status Register instruction will be valid
+# 
+# cmd success
+# >>rm 0000 
+# Response: 00020200
+# wm 0000 80220240
+# cmd success
+# >>rm 0000 
+# Response: 00220240
+# rm 0008 
+# Response: 03000000
+# Total time Elapsed: 2338000(us): tb_top.spi_wait_busy : Checking the SPI RDStatus : 03000000
+# wm 0004 05000000
+# cmd success
+# >>wm 0000 80020200       2747329050000:  NOTE : Only a Read Status Register instruction will be valid
+# 
+# cmd success
+# >>rm 0000 
+# Response: 00020200
+# wm 0000 80220240
+# cmd success
+# >>rm 0000 
+# Response: 00220240
+# rm 0008 
+# Response: 03000000
+# Total time Elapsed: 2598000(us): tb_top.spi_wait_busy : Checking the SPI RDStatus : 03000000
+# wm 0004 05000000
+# cmd success
+# >>wm 0000 80020200       3007202970000:  NOTE : Only a Read Status Register instruction will be valid
+# 
+# cmd success
+# >>rm 0000 
+# Response: 00020200
+# wm 0000 80220240
+# cmd success
+# >>rm 0000 
+# Response: 00220240
+# rm 0008 
+# Response: 03000000
+# Total time Elapsed: 2858000(us): tb_top.spi_wait_busy : Checking the SPI RDStatus : 03000000
+# wm 0004 05000000
+# cmd success
+# >>       3238532250000:  NOTE : Sector erase cycle is finished
+# wm 0000 80020200
+# cmd success
+# >>rm 0000 
+# Response: 00020200
+# wm 0000 80220240
+# cmd success
+# >>rm 0000 
+# Response: 00220240
+# rm 0008 
+# Response: 00000000
+# Total time Elapsed: 3118000(us): tb_top.spi_wait_busy : Checking the SPI RDStatus : 00000000
+# wm 0004 06000000
+# cmd success
+# >>wm 0000 80020240
+# cmd success
+# >>rm 0000 
+# Response: 00020240
+# wm 0004 02000000
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# wm 0004 00010203
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data-  0 : 00010203
+# wm 0004 04050607
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data-  4 : 04050607
+# wm 0004 08090A0B
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data-  8 : 08090a0b
+# wm 0004 0C0D0E0F
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data- 12 : 0c0d0e0f
+# wm 0004 10111213
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data- 16 : 10111213
+# wm 0004 14151617
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data- 20 : 14151617
+# wm 0004 18191A1B
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data- 24 : 18191a1b
+# wm 0004 1C1D1E1F
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data- 28 : 1c1d1e1f
+# wm 0004 20212223
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data- 32 : 20212223
+# wm 0004 24252627
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data- 36 : 24252627
+# wm 0004 28292A2B
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data- 40 : 28292a2b
+# wm 0004 2C2D2E2F
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data- 44 : 2c2d2e2f
+# wm 0004 30313233
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data- 48 : 30313233
+# wm 0004 34353637
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data- 52 : 34353637
+# wm 0004 38393A3B
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data- 56 : 38393a3b
+# wm 0004 3C3D3E3F
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data- 60 : 3c3d3e3f
+# wm 0004 40414243
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data- 64 : 40414243
+# wm 0004 44454647
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data- 68 : 44454647
+# wm 0004 48494A4B
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data- 72 : 48494a4b
+# wm 0004 4C4D4E4F
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data- 76 : 4c4d4e4f
+# wm 0004 50515253
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data- 80 : 50515253
+# wm 0004 54555657
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data- 84 : 54555657
+# wm 0004 58595A5B
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data- 88 : 58595a5b
+# wm 0004 5C5D5E5F
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data- 92 : 5c5d5e5f
+# wm 0004 60616263
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data- 96 : 60616263
+# wm 0004 64656667
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data-100 : 64656667
+# wm 0004 68696A6B
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data-104 : 68696a6b
+# wm 0004 6C6D6E6F
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data-108 : 6c6d6e6f
+# wm 0004 70717273
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data-112 : 70717273
+# wm 0004 74757677
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data-116 : 74757677
+# wm 0004 78797A7B
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data-120 : 78797a7b
+# wm 0004 7C7D7E7F
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data-124 : 7c7d7e7f
+# wm 0004 80818283
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data-128 : 80818283
+# wm 0004 84858687
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data-132 : 84858687
+# wm 0004 88898A8B
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data-136 : 88898a8b
+# wm 0004 8C8D8E8F
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data-140 : 8c8d8e8f
+# wm 0004 90919293
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data-144 : 90919293
+# wm 0004 94959697
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data-148 : 94959697
+# wm 0004 98999A9B
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data-152 : 98999a9b
+# wm 0004 9C9D9E9F
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data-156 : 9c9d9e9f
+# wm 0004 A0A1A2A3
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data-160 : a0a1a2a3
+# wm 0004 A4A5A6A7
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data-164 : a4a5a6a7
+# wm 0004 A8A9AAAB
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data-168 : a8a9aaab
+# wm 0004 ACADAEAF
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data-172 : acadaeaf
+# wm 0004 B0B1B2B3
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data-176 : b0b1b2b3
+# wm 0004 B4B5B6B7
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data-180 : b4b5b6b7
+# wm 0004 B8B9BABB
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data-184 : b8b9babb
+# wm 0004 BCBDBEBF
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data-188 : bcbdbebf
+# wm 0004 C0C1C2C3
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data-192 : c0c1c2c3
+# wm 0004 C4C5C6C7
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data-196 : c4c5c6c7
+# wm 0004 C8C9CACB
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data-200 : c8c9cacb
+# wm 0004 CCCDCECF
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data-204 : cccdcecf
+# wm 0004 D0D1D2D3
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data-208 : d0d1d2d3
+# wm 0004 D4D5D6D7
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data-212 : d4d5d6d7
+# wm 0004 D8D9DADB
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data-216 : d8d9dadb
+# wm 0004 DCDDDEDF
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data-220 : dcdddedf
+# wm 0004 E0E1E2E3
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data-224 : e0e1e2e3
+# wm 0004 E4E5E6E7
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data-228 : e4e5e6e7
+# wm 0004 E8E9EAEB
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data-232 : e8e9eaeb
+# wm 0004 ECEDEEEF
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data-236 : ecedeeef
+# wm 0004 F0F1F2F3
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data-240 : f0f1f2f3
+# wm 0004 F4F5F6F7
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data-244 : f4f5f6f7
+# wm 0004 F8F9FAFB
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# tb_top.spi_page_write : Writing Data-248 : f8f9fafb
+# wm 0004 FCFDFEFF
+# cmd success
+# >>wm 0000 801A0201
+# cmd s      12045247770000:  NOTE : Page program cycle is started
+# uccess
+# >>      12050247770000:  NOTE : Page program cycle is finished
+# rm 0000 
+# Response: 001A0201
+# tb_top.spi_page_write : Writing Data-252 : fcfdfeff
+# wm 0004 05000000
+# cmd success
+# >>wm 0000 80020200
+# cmd success
+# >>rm 0000 
+# Response: 00020200
+# wm 0000 80220240
+# cmd success
+# >>rm 0000 
+# Response: 00220240
+# rm 0008 
+# Response: 00000000
+# Total time Elapsed: 8849000(us): tb_top.spi_wait_busy : Checking the SPI RDStatus : 00000000
+# wm 0004 03000000
+# cmd success
+# >>wm 0000 801A0200
+# cmd success
+# >>rm 0000 
+# Response: 001A0200
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: 00010203
+# tb_top.spi_page_read_verify : STATUS :  Data:  0 Matched : 00010203 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: 04050607
+# tb_top.spi_page_read_verify : STATUS :  Data:  4 Matched : 04050607 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: 08090A0B
+# tb_top.spi_page_read_verify : STATUS :  Data:  8 Matched : 08090a0b 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: 0C0D0E0F
+# tb_top.spi_page_read_verify : STATUS :  Data: 12 Matched : 0c0d0e0f 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: 10111213
+# tb_top.spi_page_read_verify : STATUS :  Data: 16 Matched : 10111213 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: 14151617
+# tb_top.spi_page_read_verify : STATUS :  Data: 20 Matched : 14151617 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: 18191A1B
+# tb_top.spi_page_read_verify : STATUS :  Data: 24 Matched : 18191a1b 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: 1C1D1E1F
+# tb_top.spi_page_read_verify : STATUS :  Data: 28 Matched : 1c1d1e1f 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: 20212223
+# tb_top.spi_page_read_verify : STATUS :  Data: 32 Matched : 20212223 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: 24252627
+# tb_top.spi_page_read_verify : STATUS :  Data: 36 Matched : 24252627 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: 28292A2B
+# tb_top.spi_page_read_verify : STATUS :  Data: 40 Matched : 28292a2b 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: 2C2D2E2F
+# tb_top.spi_page_read_verify : STATUS :  Data: 44 Matched : 2c2d2e2f 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: 30313233
+# tb_top.spi_page_read_verify : STATUS :  Data: 48 Matched : 30313233 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: 34353637
+# tb_top.spi_page_read_verify : STATUS :  Data: 52 Matched : 34353637 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: 38393A3B
+# tb_top.spi_page_read_verify : STATUS :  Data: 56 Matched : 38393a3b 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: 3C3D3E3F
+# tb_top.spi_page_read_verify : STATUS :  Data: 60 Matched : 3c3d3e3f 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: 40414243
+# tb_top.spi_page_read_verify : STATUS :  Data: 64 Matched : 40414243 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: 44454647
+# tb_top.spi_page_read_verify : STATUS :  Data: 68 Matched : 44454647 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: 48494A4B
+# tb_top.spi_page_read_verify : STATUS :  Data: 72 Matched : 48494a4b 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: 4C4D4E4F
+# tb_top.spi_page_read_verify : STATUS :  Data: 76 Matched : 4c4d4e4f 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: 50515253
+# tb_top.spi_page_read_verify : STATUS :  Data: 80 Matched : 50515253 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: 54555657
+# tb_top.spi_page_read_verify : STATUS :  Data: 84 Matched : 54555657 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: 58595A5B
+# tb_top.spi_page_read_verify : STATUS :  Data: 88 Matched : 58595a5b 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: 5C5D5E5F
+# tb_top.spi_page_read_verify : STATUS :  Data: 92 Matched : 5c5d5e5f 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: 60616263
+# tb_top.spi_page_read_verify : STATUS :  Data: 96 Matched : 60616263 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: 64656667
+# tb_top.spi_page_read_verify : STATUS :  Data:100 Matched : 64656667 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: 68696A6B
+# tb_top.spi_page_read_verify : STATUS :  Data:104 Matched : 68696a6b 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: 6C6D6E6F
+# tb_top.spi_page_read_verify : STATUS :  Data:108 Matched : 6c6d6e6f 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: 70717273
+# tb_top.spi_page_read_verify : STATUS :  Data:112 Matched : 70717273 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: 74757677
+# tb_top.spi_page_read_verify : STATUS :  Data:116 Matched : 74757677 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: 78797A7B
+# tb_top.spi_page_read_verify : STATUS :  Data:120 Matched : 78797a7b 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: 7C7D7E7F
+# tb_top.spi_page_read_verify : STATUS :  Data:124 Matched : 7c7d7e7f 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: 80818283
+# tb_top.spi_page_read_verify : STATUS :  Data:128 Matched : 80818283 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: 84858687
+# tb_top.spi_page_read_verify : STATUS :  Data:132 Matched : 84858687 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: 88898A8B
+# tb_top.spi_page_read_verify : STATUS :  Data:136 Matched : 88898a8b 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: 8C8D8E8F
+# tb_top.spi_page_read_verify : STATUS :  Data:140 Matched : 8c8d8e8f 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: 90919293
+# tb_top.spi_page_read_verify : STATUS :  Data:144 Matched : 90919293 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: 94959697
+# tb_top.spi_page_read_verify : STATUS :  Data:148 Matched : 94959697 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: 98999A9B
+# tb_top.spi_page_read_verify : STATUS :  Data:152 Matched : 98999a9b 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: 9C9D9E9F
+# tb_top.spi_page_read_verify : STATUS :  Data:156 Matched : 9c9d9e9f 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: A0A1A2A3
+# tb_top.spi_page_read_verify : STATUS :  Data:160 Matched : a0a1a2a3 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: A4A5A6A7
+# tb_top.spi_page_read_verify : STATUS :  Data:164 Matched : a4a5a6a7 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: A8A9AAAB
+# tb_top.spi_page_read_verify : STATUS :  Data:168 Matched : a8a9aaab 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: ACADAEAF
+# tb_top.spi_page_read_verify : STATUS :  Data:172 Matched : acadaeaf 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: B0B1B2B3
+# tb_top.spi_page_read_verify : STATUS :  Data:176 Matched : b0b1b2b3 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: B4B5B6B7
+# tb_top.spi_page_read_verify : STATUS :  Data:180 Matched : b4b5b6b7 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: B8B9BABB
+# tb_top.spi_page_read_verify : STATUS :  Data:184 Matched : b8b9babb 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: BCBDBEBF
+# tb_top.spi_page_read_verify : STATUS :  Data:188 Matched : bcbdbebf 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: C0C1C2C3
+# tb_top.spi_page_read_verify : STATUS :  Data:192 Matched : c0c1c2c3 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: C4C5C6C7
+# tb_top.spi_page_read_verify : STATUS :  Data:196 Matched : c4c5c6c7 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: C8C9CACB
+# tb_top.spi_page_read_verify : STATUS :  Data:200 Matched : c8c9cacb 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: CCCDCECF
+# tb_top.spi_page_read_verify : STATUS :  Data:204 Matched : cccdcecf 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: D0D1D2D3
+# tb_top.spi_page_read_verify : STATUS :  Data:208 Matched : d0d1d2d3 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: D4D5D6D7
+# tb_top.spi_page_read_verify : STATUS :  Data:212 Matched : d4d5d6d7 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: D8D9DADB
+# tb_top.spi_page_read_verify : STATUS :  Data:216 Matched : d8d9dadb 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: DCDDDEDF
+# tb_top.spi_page_read_verify : STATUS :  Data:220 Matched : dcdddedf 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: E0E1E2E3
+# tb_top.spi_page_read_verify : STATUS :  Data:224 Matched : e0e1e2e3 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: E4E5E6E7
+# tb_top.spi_page_read_verify : STATUS :  Data:228 Matched : e4e5e6e7 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: E8E9EAEB
+# tb_top.spi_page_read_verify : STATUS :  Data:232 Matched : e8e9eaeb 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: ECEDEEEF
+# tb_top.spi_page_read_verify : STATUS :  Data:236 Matched : ecedeeef 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: F0F1F2F3
+# tb_top.spi_page_read_verify : STATUS :  Data:240 Matched : f0f1f2f3 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: F4F5F6F7
+# tb_top.spi_page_read_verify : STATUS :  Data:244 Matched : f4f5f6f7 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: F8F9FAFB
+# tb_top.spi_page_read_verify : STATUS :  Data:248 Matched : f8f9fafb 
+# wm 0000 803A0200
+# cmd success
+# >>rm 0000 
+# Response: 003A0200
+# rm 0008 
+# Response: FCFDFEFF
+# tb_top.spi_page_read_verify : STATUS :  Data:252 Matched : fcfdfeff 
+#############################
+#    Test Statistic            
+# TEST STATUS : PASSED 
+#############################
+# ** Note: $finish    : ../tb/tb_top.v(114)
+#    Time: 20756889490 ns  Iteration: 0  Instance: /tb_top

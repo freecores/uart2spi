@@ -1,7 +1,7 @@
 
 //////////////////////////////////////////////////////////////////////
 ////                                                              ////
-////  UART Message Handler Top Module                             ////
+////  UART2SPI  Top Module                                        ////
 ////                                                              ////
 ////  This file is part of the uart2spi  cores project            ////
 ////  http://www.opencores.org/cores/uart2spi/                    ////
